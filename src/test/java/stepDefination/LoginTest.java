@@ -4,6 +4,9 @@ import org.junit.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriver;
+import org.openqa.selenium.phantomjs.PhantomJSDriverService;
+import org.openqa.selenium.remote.DesiredCapabilities;
 
 import Utilities.BaseClass;
 import cucumber.api.java.en.Given;
@@ -15,10 +18,17 @@ import java.util.concurrent.TimeUnit;
 public class LoginTest extends BaseClass {
 	@Given("^I Open Chrome Browser$")
 	public void I_Open_Chrome_Browser() {
-		System.setProperty("webdriver.chrome.driver", "/Users/khurramishfaq/Downloads/chromedriver");
-		driver = new ChromeDriver();
-		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
-		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		//the below is for to run on Jenkins to open browser
+		caps = new DesiredCapabilities();
+        caps.setJavascriptEnabled(true); // not really needed: JS enabled by default
+        caps.setCapability(PhantomJSDriverService.PHANTOMJS_EXECUTABLE_PATH_PROPERTY, System.getProperty("user.dir") + "/Drivers/phantomjs");
+        driver = new PhantomJSDriver(caps);
+		
+		
+//		System.setProperty("webdriver.chrome.driver", "/Users/khurramishfaq/Downloads/chromedriver");
+//		driver = new ChromeDriver();
+//		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+//		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 	}
 
 	@When("^I go to the Salesforce application$")
@@ -42,11 +52,12 @@ public class LoginTest extends BaseClass {
 		driver.findElement(By.id("password")).sendKeys(password);
 	}
 	
-	@When("^I click \"([^\"]*)\" button$")
-	public void I_click_button(String loginbtn) {
-		driver.findElement(By.id(loginbtn)).click();
-	}
 	
+	@When("^I click the \"([^\"]*)\" button$")
+	public void i_click_the_button(String arg1) {
+		driver.findElement(By.id("Login")).click();
+		
+	}
 
 	@When("^I click the login button$")
 	public void I_click_the_login_button() {

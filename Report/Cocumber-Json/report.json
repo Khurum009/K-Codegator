@@ -3,329 +3,6 @@
     "line": 1,
     "elements": [
       {
-        "line": 2,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 2904383303,
-              "status": "passed"
-            },
-            "line": 3,
-            "name": "I Open Chrome Browser",
-            "match": {
-              "location": "LoginTest.I_Open_Chrome_Browser()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 624114419,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "I go to the Salesforce application",
-            "match": {
-              "location": "LoginTest.I_go_to_the_Salesforce_application()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 384625512,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I maximize my window",
-            "match": {
-              "location": "LoginTest.I_maximize_my_window()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1972019883,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I enter \"batch03@codegator.us.qa\" username",
-            "match": {
-              "arguments": [
-                {
-                  "val": "batch03@codegator.us.qa",
-                  "offset": 9
-                }
-              ],
-              "location": "LoginTest.I_enter_username(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 225324675,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I enter \"Pa55word\" password",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Pa55word",
-                  "offset": 9
-                }
-              ],
-              "location": "LoginTest.I_enter_password(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 8,
-            "name": "I click the \"Login\" button",
-            "match": {},
-            "keyword": "When "
-          }
-        ]
-      },
-      {
-        "line": 10,
-        "name": "Verify the rating field and its options",
-        "description": "",
-        "id": "test-the-fields-in-account-objects;verify-the-rating-field-and-its-options",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 12,
-            "name": "I click \"Account_Tab\" tab",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 13,
-            "name": "I am on \"Accounts\" home page",
-            "match": {},
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 14,
-            "name": "I click the \"new\" button",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 15,
-            "name": "I enter Account Name field",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 16,
-            "name": "I should see the Rating field",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 17,
-            "name": "I select Hot from the Rating field",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 18,
-            "name": "I click the save button",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 19,
-            "name": "I should see the Account record",
-            "match": {},
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 9,
-            "name": "@Accounts"
-          }
-        ]
-      },
-      {
-        "line": 2,
-        "name": "",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 1745445577,
-              "status": "passed"
-            },
-            "line": 3,
-            "name": "I Open Chrome Browser",
-            "match": {
-              "location": "LoginTest.I_Open_Chrome_Browser()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 1813210293,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "I go to the Salesforce application",
-            "match": {
-              "location": "LoginTest.I_go_to_the_Salesforce_application()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 428273731,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "I maximize my window",
-            "match": {
-              "location": "LoginTest.I_maximize_my_window()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 1803238970,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "I enter \"batch03@codegator.us.qa\" username",
-            "match": {
-              "arguments": [
-                {
-                  "val": "batch03@codegator.us.qa",
-                  "offset": 9
-                }
-              ],
-              "location": "LoginTest.I_enter_username(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 424284590,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "I enter \"Pa55word\" password",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Pa55word",
-                  "offset": 9
-                }
-              ],
-              "location": "LoginTest.I_enter_password(String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 8,
-            "name": "I click the \"Login\" button",
-            "match": {},
-            "keyword": "When "
-          }
-        ]
-      },
-      {
-        "line": 22,
-        "name": "Create complete Account",
-        "description": "",
-        "id": "test-the-fields-in-account-objects;create-complete-account",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 23,
-            "name": "I create an Account",
-            "match": {},
-            "rows": [
-              {
-                "cells": [
-                  "Account name",
-                  "Rating",
-                  "Account Number",
-                  "Website"
-                ],
-                "line": 24
-              },
-              {
-                "cells": [
-                  "Khurum",
-                  "Hot",
-                  "007",
-                  "http://codegator.com"
-                ],
-                "line": 25
-              }
-            ],
-            "keyword": "And "
-          }
-        ],
-        "tags": [
-          {
-            "line": 21,
-            "name": "@Accounts"
-          }
-        ]
-      }
-    ],
-    "name": "Test the fields in Account objects",
-    "description": "",
-    "id": "test-the-fields-in-account-objects",
-    "keyword": "Feature",
-    "uri": "Feature/Account.feature"
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
         "line": 5,
         "name": "",
         "description": "",
@@ -334,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1824312401,
+              "duration": 2044059689,
               "status": "passed"
             },
             "line": 6,
@@ -346,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 832253283,
+              "duration": 3494159855,
               "status": "passed"
             },
             "line": 7,
@@ -358,7 +35,7 @@
           },
           {
             "result": {
-              "duration": 445516265,
+              "duration": 62731117,
               "status": "passed"
             },
             "line": 8,
@@ -370,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 1709430939,
+              "duration": 261928725,
               "status": "passed"
             },
             "line": 9,
@@ -388,7 +65,7 @@
           },
           {
             "result": {
-              "duration": 593445554,
+              "duration": 121494552,
               "status": "passed"
             },
             "line": 10,
@@ -406,11 +83,20 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 3604193607,
+              "status": "passed"
             },
             "line": 11,
             "name": "I click the \"Login\" button",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginTest.i_click_the_button(String)"
+            },
             "keyword": "When "
           }
         ]
@@ -425,7 +111,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 997383614,
+              "status": "passed"
             },
             "line": 13,
             "name": "I Open Chrome Browser",
@@ -436,7 +123,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1758247965,
+              "status": "passed"
             },
             "line": 14,
             "name": "I go to the Salesforce application",
@@ -447,7 +135,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 52150099,
+              "status": "passed"
             },
             "line": 15,
             "name": "I maximize my window",
@@ -458,7 +147,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 97783055,
+              "status": "passed"
             },
             "line": 16,
             "name": "I should see the Salesforce logo",
@@ -469,7 +159,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 168116041,
+              "status": "passed"
             },
             "line": 17,
             "name": "I enter \"batch03@codegator.us.qa\" username",
@@ -489,7 +180,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 137710676,
+              "status": "passed"
             },
             "line": 18,
             "name": "I enter \"Pa55word\" password",
@@ -509,19 +201,11 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "status": "undefined"
             },
             "line": 19,
             "name": "I click \"Login\" button",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Login",
-                  "offset": 9
-                }
-              ],
-              "location": "LoginTest.I_click_button(String)"
-            },
+            "match": {},
             "keyword": "When "
           },
           {
@@ -546,7 +230,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1889638428,
+              "duration": 994644590,
               "status": "passed"
             },
             "line": 6,
@@ -558,7 +242,7 @@
           },
           {
             "result": {
-              "duration": 705537897,
+              "duration": 3222529267,
               "status": "passed"
             },
             "line": 7,
@@ -570,7 +254,7 @@
           },
           {
             "result": {
-              "duration": 444009970,
+              "duration": 26603152,
               "status": "passed"
             },
             "line": 8,
@@ -582,7 +266,7 @@
           },
           {
             "result": {
-              "duration": 1693288796,
+              "duration": 328383618,
               "status": "passed"
             },
             "line": 9,
@@ -600,7 +284,7 @@
           },
           {
             "result": {
-              "duration": 505408277,
+              "duration": 110629811,
               "status": "passed"
             },
             "line": 10,
@@ -618,11 +302,20 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 3641034394,
+              "status": "passed"
             },
             "line": 11,
             "name": "I click the \"Login\" button",
-            "match": {},
+            "match": {
+              "arguments": [
+                {
+                  "val": "Login",
+                  "offset": 13
+                }
+              ],
+              "location": "LoginTest.i_click_the_button(String)"
+            },
             "keyword": "When "
           }
         ]
@@ -637,7 +330,8 @@
         "steps": [
           {
             "result": {
-              "status": "skipped"
+              "duration": 1333978716,
+              "status": "passed"
             },
             "line": 13,
             "name": "I Open Chrome Browser",
@@ -648,7 +342,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1226100321,
+              "status": "passed"
             },
             "line": 14,
             "name": "I go to the Salesforce application",
@@ -659,7 +354,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 58009674,
+              "status": "passed"
             },
             "line": 15,
             "name": "I maximize my window",
@@ -670,7 +366,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 88984435,
+              "status": "passed"
             },
             "line": 16,
             "name": "I should see the Salesforce logo",
@@ -681,7 +378,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 167265758,
+              "status": "passed"
             },
             "line": 17,
             "name": "I enter \"batch03@codegator.us.qa\" username",
@@ -701,7 +399,8 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 124875589,
+              "status": "passed"
             },
             "line": 18,
             "name": "I enter \"Pa55word\" password",
@@ -721,19 +420,11 @@
           },
           {
             "result": {
-              "status": "skipped"
+              "status": "undefined"
             },
             "line": 19,
             "name": "I click \"Login\" button",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Login",
-                  "offset": 9
-                }
-              ],
-              "location": "LoginTest.I_click_button(String)"
-            },
+            "match": {},
             "keyword": "When "
           },
           {

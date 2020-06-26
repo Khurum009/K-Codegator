@@ -1,317 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Feature/Account.feature");
-formatter.feature({
-  "line": 1,
-  "name": "Test the fields in Account objects",
-  "description": "",
-  "id": "test-the-fields-in-account-objects",
-  "keyword": "Feature"
-});
-formatter.background({
-  "line": 2,
-  "name": "",
-  "description": "",
-  "type": "background",
-  "keyword": "Background"
-});
-formatter.step({
-  "line": 3,
-  "name": "I Open Chrome Browser",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 4,
-  "name": "I go to the Salesforce application",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 5,
-  "name": "I maximize my window",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 6,
-  "name": "I enter \"batch03@codegator.us.qa\" username",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 7,
-  "name": "I enter \"Pa55word\" password",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 8,
-  "name": "I click the \"Login\" button",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "LoginTest.I_Open_Chrome_Browser()"
-});
-formatter.result({
-  "duration": 2904383303,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginTest.I_go_to_the_Salesforce_application()"
-});
-formatter.result({
-  "duration": 624114419,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginTest.I_maximize_my_window()"
-});
-formatter.result({
-  "duration": 384625512,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "batch03@codegator.us.qa",
-      "offset": 9
-    }
-  ],
-  "location": "LoginTest.I_enter_username(String)"
-});
-formatter.result({
-  "duration": 1972019883,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Pa55word",
-      "offset": 9
-    }
-  ],
-  "location": "LoginTest.I_enter_password(String)"
-});
-formatter.result({
-  "duration": 225324675,
-  "status": "passed"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.scenario({
-  "line": 10,
-  "name": "Verify the rating field and its options",
-  "description": "",
-  "id": "test-the-fields-in-account-objects;verify-the-rating-field-and-its-options",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 9,
-      "name": "@Accounts"
-    }
-  ]
-});
-formatter.step({
-  "line": 12,
-  "name": "I click \"Account_Tab\" tab",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 13,
-  "name": "I am on \"Accounts\" home page",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 14,
-  "name": "I click the \"new\" button",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 15,
-  "name": "I enter Account Name field",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 16,
-  "name": "I should see the Rating field",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 17,
-  "name": "I select Hot from the Rating field",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 18,
-  "name": "I click the save button",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 19,
-  "name": "I should see the Account record",
-  "keyword": "Then "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.background({
-  "line": 2,
-  "name": "",
-  "description": "",
-  "type": "background",
-  "keyword": "Background"
-});
-formatter.step({
-  "line": 3,
-  "name": "I Open Chrome Browser",
-  "keyword": "Given "
-});
-formatter.step({
-  "line": 4,
-  "name": "I go to the Salesforce application",
-  "keyword": "When "
-});
-formatter.step({
-  "line": 5,
-  "name": "I maximize my window",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 6,
-  "name": "I enter \"batch03@codegator.us.qa\" username",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 7,
-  "name": "I enter \"Pa55word\" password",
-  "keyword": "And "
-});
-formatter.step({
-  "line": 8,
-  "name": "I click the \"Login\" button",
-  "keyword": "When "
-});
-formatter.match({
-  "location": "LoginTest.I_Open_Chrome_Browser()"
-});
-formatter.result({
-  "duration": 1745445577,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginTest.I_go_to_the_Salesforce_application()"
-});
-formatter.result({
-  "duration": 1813210293,
-  "status": "passed"
-});
-formatter.match({
-  "location": "LoginTest.I_maximize_my_window()"
-});
-formatter.result({
-  "duration": 428273731,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "batch03@codegator.us.qa",
-      "offset": 9
-    }
-  ],
-  "location": "LoginTest.I_enter_username(String)"
-});
-formatter.result({
-  "duration": 1803238970,
-  "status": "passed"
-});
-formatter.match({
-  "arguments": [
-    {
-      "val": "Pa55word",
-      "offset": 9
-    }
-  ],
-  "location": "LoginTest.I_enter_password(String)"
-});
-formatter.result({
-  "duration": 424284590,
-  "status": "passed"
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.scenario({
-  "line": 22,
-  "name": "Create complete Account",
-  "description": "",
-  "id": "test-the-fields-in-account-objects;create-complete-account",
-  "type": "scenario",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "line": 21,
-      "name": "@Accounts"
-    }
-  ]
-});
-formatter.step({
-  "line": 23,
-  "name": "I create an Account",
-  "rows": [
-    {
-      "cells": [
-        "Account name",
-        "Rating",
-        "Account Number",
-        "Website"
-      ],
-      "line": 24
-    },
-    {
-      "cells": [
-        "Khurum",
-        "Hot",
-        "007",
-        "http://codegator.com"
-      ],
-      "line": 25
-    }
-  ],
-  "keyword": "And "
-});
-formatter.match({});
-formatter.result({
-  "status": "undefined"
-});
-formatter.uri("Feature/login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("Feature/login.feature");
 formatter.feature({
   "line": 1,
   "name": "Test login funcionality",
@@ -441,21 +128,21 @@ formatter.match({
   "location": "LoginTest.I_Open_Chrome_Browser()"
 });
 formatter.result({
-  "duration": 1824312401,
+  "duration": 2044059689,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.I_go_to_the_Salesforce_application()"
 });
 formatter.result({
-  "duration": 832253283,
+  "duration": 3494159855,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.I_maximize_my_window()"
 });
 formatter.result({
-  "duration": 445516265,
+  "duration": 62731117,
   "status": "passed"
 });
 formatter.match({
@@ -468,7 +155,7 @@ formatter.match({
   "location": "LoginTest.I_enter_username(String)"
 });
 formatter.result({
-  "duration": 1709430939,
+  "duration": 261928725,
   "status": "passed"
 });
 formatter.match({
@@ -481,12 +168,21 @@ formatter.match({
   "location": "LoginTest.I_enter_password(String)"
 });
 formatter.result({
-  "duration": 593445554,
+  "duration": 121494552,
   "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Login",
+      "offset": 13
+    }
+  ],
+  "location": "LoginTest.i_click_the_button(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 3604193607,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 24,
@@ -546,25 +242,29 @@ formatter.match({
   "location": "LoginTest.I_Open_Chrome_Browser()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 997383614,
+  "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.I_go_to_the_Salesforce_application()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1758247965,
+  "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.I_maximize_my_window()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 52150099,
+  "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.I_should_see_the_Salesforce_logo()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 97783055,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -576,7 +276,8 @@ formatter.match({
   "location": "LoginTest.I_enter_username(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 168116041,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -588,19 +289,12 @@ formatter.match({
   "location": "LoginTest.I_enter_password(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 137710676,
+  "status": "passed"
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "Login",
-      "offset": 9
-    }
-  ],
-  "location": "LoginTest.I_click_button(String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "skipped"
+  "status": "undefined"
 });
 formatter.match({
   "location": "LoginTest.I_should_see_the_logout_link()"
@@ -649,21 +343,21 @@ formatter.match({
   "location": "LoginTest.I_Open_Chrome_Browser()"
 });
 formatter.result({
-  "duration": 1889638428,
+  "duration": 994644590,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.I_go_to_the_Salesforce_application()"
 });
 formatter.result({
-  "duration": 705537897,
+  "duration": 3222529267,
   "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.I_maximize_my_window()"
 });
 formatter.result({
-  "duration": 444009970,
+  "duration": 26603152,
   "status": "passed"
 });
 formatter.match({
@@ -676,7 +370,7 @@ formatter.match({
   "location": "LoginTest.I_enter_username(String)"
 });
 formatter.result({
-  "duration": 1693288796,
+  "duration": 328383618,
   "status": "passed"
 });
 formatter.match({
@@ -689,12 +383,21 @@ formatter.match({
   "location": "LoginTest.I_enter_password(String)"
 });
 formatter.result({
-  "duration": 505408277,
+  "duration": 110629811,
   "status": "passed"
 });
-formatter.match({});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Login",
+      "offset": 13
+    }
+  ],
+  "location": "LoginTest.i_click_the_button(String)"
+});
 formatter.result({
-  "status": "undefined"
+  "duration": 3641034394,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 25,
@@ -754,25 +457,29 @@ formatter.match({
   "location": "LoginTest.I_Open_Chrome_Browser()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1333978716,
+  "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.I_go_to_the_Salesforce_application()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 1226100321,
+  "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.I_maximize_my_window()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 58009674,
+  "status": "passed"
 });
 formatter.match({
   "location": "LoginTest.I_should_see_the_Salesforce_logo()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 88984435,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -784,7 +491,8 @@ formatter.match({
   "location": "LoginTest.I_enter_username(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 167265758,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -796,19 +504,12 @@ formatter.match({
   "location": "LoginTest.I_enter_password(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 124875589,
+  "status": "passed"
 });
-formatter.match({
-  "arguments": [
-    {
-      "val": "Login",
-      "offset": 9
-    }
-  ],
-  "location": "LoginTest.I_click_button(String)"
-});
+formatter.match({});
 formatter.result({
-  "status": "skipped"
+  "status": "undefined"
 });
 formatter.match({
   "location": "LoginTest.I_should_see_the_logout_link()"
